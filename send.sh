@@ -67,7 +67,7 @@ WEBHOOK_DATA='{
       },
       {
         "name": "Artifact",
-        "value": "'"[\`corbellum-pack.zip\`]($CI_PROJECT_URL-/jobs/$CI_JOB_ID/artifacts/raw/corbellum-pack.zip?inline=false)"'"
+        "value": "'"[\`corbellum-pack.zip\`]($CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/raw/corbellum-pack.zip?inline=false)"'"
       }
     ],
     "timestamp": "'"$TIMESTAMP"'"
