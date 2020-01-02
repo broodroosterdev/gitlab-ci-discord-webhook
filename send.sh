@@ -64,6 +64,10 @@ WEBHOOK_DATA='{
         "name": "Branch",
         "value": "'"[\`$CI_COMMIT_REF_NAME\`]($CI_PROJECT_URL/tree/$CI_COMMIT_REF_NAME)"'",
         "inline": true
+      },
+      {
+        "name": "Artifact",
+        "value": "'"[\`corbellum-pack.zip\`]($CI_PROJECT_URL-/jobs/$CI_JOB_ID/artifacts/raw/corbellum-pack.zip?inline=false)"'"
       }
     ],
     "timestamp": "'"$TIMESTAMP"'"
